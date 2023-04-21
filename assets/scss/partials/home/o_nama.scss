@@ -1,0 +1,57 @@
+.o-nama-section {
+    background-color: $sekcija1_color;
+}
+
+.o-nama-container {
+    max-width: 1200px;
+    margin: 75px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.hero-text-inverse {
+    color: $sekcija1_color;
+    display: inline;
+    font-size: 1.4rem;
+    background-color: #fff;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 5px #fff;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.o-nama-naslov {
+    margin-bottom: 2rem;
+}
+
+.opis {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.o-nama-zeleni-tekst {
+    color: $svijetlozelena_color;
+}
+
+
+@media (max-width: 414px) {
+
+    .o-nama-container {
+        max-width: 100%;
+        margin: 75px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .o-nama-container {
+        margin-top: 60px;
+    }
+
+  }

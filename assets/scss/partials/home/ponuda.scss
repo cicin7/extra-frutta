@@ -1,0 +1,76 @@
+/****** LISTA VOĆA I POVRĆA ******/
+
+.ponuda-container {
+    max-width: 1200px;
+    margin: 75px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .popis-naslov {
+    display: inline;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.4rem;
+    background-color: $sekcija1_color;
+    color:white;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 5px #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .popis-wrapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .popis-wrapp ul li {
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .popis-wrapp ul li:hover {
+    cursor: pointer;
+    color: $svijetlozelena_color;
+  }
+
+  .upute-wrapp {
+    border-top: 1px solid $svijetlozelena_color;
+    color: #333;
+    margin-bottom: 50px;
+    padding: 25px 20px 0 0;
+    font-size: 1.2rem;
+  }
+
+@media (max-width: 768px) {
+
+  .popis-wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  }
+
+
+@media (max-width: 414px) {
+
+  .popis-wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .popis-naslov {
+    margin: 0 15px 30px 15px;
+    text-align: center;
+  }
+
+  }

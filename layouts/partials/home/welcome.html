@@ -1,0 +1,45 @@
+<!----- SLIKA I NASLOV ----->
+<header class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+          <h1>100% <span class="prirodno">prirodno</span></h1>
+          <h2>Dostava svježeg voća i povrća</h2> 
+          <p>Iznajmljivanje/prodaja sokovnika i blendera uz redovno servisiranje.</p>
+          <div class="buttoni">
+            <button class="btn tablica-btn">
+                <a href="#voce-povrce">TABLICA VOĆA I POVRĆA</a> 
+            </button>
+            <button class="btn proizvodi-btn">
+                <a href="#lista">KATALOG PROIZVODA</a> 
+            </button>
+          </div> 
+      </div>
+      <div>
+
+      </div>
+    </div>
+    
+    
+  </header>
+</div>
+
+<script>
+
+const btns = document.querySelectorAll('.btn a');
+
+for (const btn of btns) {
+  btn.addEventListener('click', clickHandler);
+}
+
+function clickHandler(e) {
+  e.preventDefault();
+  const href = this.getAttribute('href');
+  const offsetTop = document.querySelector(href).offsetTop;
+
+  scroll({
+    top: offsetTop,
+    behavior: "smooth"
+  });
+}
+
+</script>

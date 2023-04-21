@@ -1,0 +1,56 @@
+<header class="header-section">
+    <div class="header-container">
+
+        <div class="header-logo">
+            <a href="https://www.extrafrutta.hr">
+                <img src="/img/extra-frutta-logo.png" alt="Extra Frutta Logo">
+            </a>
+        </div>
+        <button class="menu-btn" onclick="mobileMenu()">IZBORNIK</button>
+        <ul class="header-nav">
+            <li><a href="#lista">Katalog proizvoda</a></li>
+            <li><a href="#voce-povrce">Voće i povrće</a></li>
+            <li><a href="#kako-naruciti">Kako naručiti / Kontakt</a></li>
+            <li><a href="#o-nama">O nama</a></li>
+        </ul>
+
+    </div>
+</header>
+
+<script>
+
+    const mobileMenu = () => {
+
+
+    let menu = document.querySelector('.header-container ul');
+    let btn = document.querySelector('.header-container button');
+
+
+    if(btn.innerText === 'IZBORNIK'){
+        menu.style.display = 'block';
+        btn.innerText = 'ZATVORI';
+    } else {
+        menu.style.display = 'none';
+        btn.innerText = 'IZBORNIK';
+    }
+}
+
+const links = document.querySelectorAll('.header-nav a');
+
+for (const link of links) {
+  link.addEventListener('click', clickHandler);
+}
+
+function clickHandler(e) {
+  e.preventDefault();
+  const href = this.getAttribute('href');
+  const offsetTop = document.querySelector(href).offsetTop;
+
+  scroll({
+    top: offsetTop,
+    behavior: "smooth"
+  });
+}
+
+
+</script>

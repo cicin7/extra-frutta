@@ -1,0 +1,99 @@
+.kako-naruciti-section {
+    background-color: #fff;
+}
+
+.kako-naruciti-container {
+    max-width: 1200px;
+    margin: 85px auto 75px auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.kako-naruciti-container p{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+.center {
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+.broj, .email, .placanje {
+    color: $svijetlozelena_color;
+}
+
+.kako-naruciti-opis {
+    text-align: center;
+}
+
+.kontakt-kolone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.kontakt-kolona {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $sekcija1_color;
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+    margin-top: 50px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #1C1C1C;
+}
+
+.kontakt-kolona h3 {
+    color: $svijetlozelena_color;
+}
+
+@media (max-width: 1000px) {
+
+    .kontakt-kolone {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+  }
+
+@media (max-width: 768px) {
+
+    .kontakt-kolone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+  }
+
+
+@media (max-width: 414px) {
+
+    .kontakt-kolone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    .kako-naruciti-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+  }

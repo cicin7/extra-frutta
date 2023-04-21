@@ -1,0 +1,37 @@
+@import "variables.scss";
+
+/* Common */
+@import "partials/common/header.scss";
+@import "partials/common/footer.scss";
+@import "partials/home/welcome.scss";
+@import "partials/home/proizvodi.scss";
+@import "partials/home/ponuda.scss";
+@import "partials/home/kako_naruciti.scss";
+@import "partials/home/o_nama.scss";
+@import "partials/home/uspjeh.scss";
+/* End Common */
+
+/*Home*/
+/*End Home*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+html, body {
+    overflow-x: hidden;
+}
