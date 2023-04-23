@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homepage on Extra Frutta</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Homepage on Extra Frutta</description>
+    <title>vervita pro kuvings sokovnici on Extra Frutta</title>
+    <link>http://example.org/vervita-pro-kuvings-sokovnici/</link>
+    <description>Recent content in vervita pro kuvings sokovnici on Extra Frutta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sokovnik sssss</title>
-      <link>http://example.org/vervita-xxl-sokovnici/tests/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/vervita-xxl-sokovnici/tests/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://example.org/vervita-pro-kuvings-sokovnici/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sokovnik VerVita Elite (Kuvings EVO820)</title>
       <link>http://example.org/vervita-pro-kuvings-sokovnici/sokovnik-vervita-elite-kuvings-evo820/</link>

@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/blendtec-blenderi/</loc>
+  </url><url>
+    <loc>http://example.org/blendtec-komercijalni-blenderi/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/dehidratori/</loc>
+  </url><url>
+    <loc>http://example.org/gulilice/</loc>
   </url><url>
     <loc>http://example.org/</loc>
   </url><url>
+    <loc>http://example.org/kuvings-vakuumski-blenderi/</loc>
+  </url><url>
+    <loc>http://example.org/omniblend-v-blenderi/</loc>
+  </url><url>
+    <loc>http://example.org/rezervni-dijelovi/</loc>
+  </url><url>
+    <loc>http://example.org/santos-komercijalni-sokovnici/</loc>
+  </url><url>
+    <loc>http://example.org/vervita-xxl-sokovnici/tests/</loc>
+  </url><url>
+    <loc>http://example.org/vervita-pro-kuvings-sokovnici/sokovnik-vervita-elite-kuvings-evo820/</loc>
+  </url><url>
+    <loc>http://example.org/vervita-pro-kuvings-sokovnici/sokovnik-vervita-pro-kuvings-b6000/</loc>
+  </url><url>
+    <loc>http://example.org/superblend-blenderi/</loc>
+  </url><url>
     <loc>http://example.org/tags/</loc>
+  </url><url>
+    <loc>http://example.org/vervita-mini-sokovnik/</loc>
+  </url><url>
+    <loc>http://example.org/vervita-pro-kuvings-sokovnici/</loc>
+  </url><url>
+    <loc>http://example.org/vervita-xxl-sokovnici/</loc>
   </url>
 </urlset>
