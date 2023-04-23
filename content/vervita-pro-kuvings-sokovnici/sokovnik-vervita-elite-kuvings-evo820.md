@@ -1,6 +1,9 @@
 ---
 title: "Sokovnik VerVita Elite (Kuvings EVO820)"
 price: "590,00 € (4445,36 kn)"
+boje:
+ - prva: "plava"
+ - druga: "zelena"
 ---
 
 Sok se cijedi prešanjem pri niskoj brzini (60 okretaja u minuti), te tako zadržava sav okus i nutrijente. VerVita Elite lagano tješti, dok tradicionalni sokovnici pri velikim brzinama melju i sjeku sastojke što uzrokuje stvaranje topline te gubitak dragocjenih hranjivih tvari u soku. Također, zbog brzine dolazi do raspršivanja soka u sitne kapljice, što uzrokuje brzu oksidaciju, a dobiveni sok se razdvaja na vodenasti dio i pjenu, što kod hladnog prešanja nije slučaj.

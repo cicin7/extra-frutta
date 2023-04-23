@@ -15,6 +15,13 @@
 .single-slike {
     width: 500px;
     height: 500px;
+    display: grid;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+        justify-self: center;
+        }
 }
 
 .single-naslov {

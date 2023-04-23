@@ -154,7 +154,7 @@ footer {
 
 .hero {
   height: 80vh;
-  background-image: url(./img/hero-image.webp);
+  background-image: url(/img/hero-image.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -625,7 +625,12 @@ img {
 
 .single-slike {
   width: 500px;
-  height: 500px; }
+  height: 500px;
+  display: grid; }
+  .single-slike img {
+    height: 100%;
+    object-fit: cover;
+    justify-self: center; }
 
 .single-naslov {
   text-transform: uppercase;
