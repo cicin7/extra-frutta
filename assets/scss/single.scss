@@ -1,0 +1,32 @@
+@import "variables.scss";
+.single-container{
+    max-width: 1240px;
+    margin: 50px auto;
+    padding: 0 20px 0 20px;
+}
+
+.single-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.single-slike {
+    width: 500px;
+    height: 500px;
+}
+
+.single-naslov {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.price  {
+    color: $svijetlozelena_color;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+}

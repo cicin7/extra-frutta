@@ -9,6 +9,7 @@
 @import "partials/home/kako_naruciti.scss";
 @import "partials/home/o_nama.scss";
 @import "partials/home/uspjeh.scss";
+@import "single.scss";
 /* End Common */
 
 /*Home*/
@@ -21,7 +22,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;  
     color: white;
 }
 
