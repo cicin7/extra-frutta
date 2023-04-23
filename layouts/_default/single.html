@@ -1,47 +1,39 @@
 {{ define "main" }}
 
-    <section class="single-container">
+<section class="single-container">
+  <div class="single-header">
+    <div class="single-slike">
+      <img
+        src="/img/sokovnik-vervita-pro-kuvings-b6000/kuvings-b6000-crveni.jpg"
+        alt=""
+      />
+    </div>
 
-        <div class="single-header">
-            <div class="single-slike">
-                <img src="/img/sokovnik-vervita-pro-kuvings-b6000/kuvings-b6000-crveni.jpg" alt=""> 
-             </div>
-             
-             <div class="single-osnovne-info">
+    <div class="single-osnovne-info">
+      <h1 class="single-naslov">{{ .Title }}</h1>
 
-                    <h1 class="single-naslov">
-                        {{ .Title }}
-                    </h1>
-        
-                    <p class="price">
-                        {{ .Params.price}}
-                    </p>
+      <p class="price">{{ .Params.price}}</p>
 
-                    <div class="boje">
-                        {{ with .Params.boje }}
+      <div class="boje">
+        {{ with .Params.boje }} {{ range . }}
+        <p>{{ .prva }}</p>
+        <p>{{ .druga }}</p>
+        <p>{{ .treca }}</p>
 
-                        {{ range . }}
+        {{ end }} {{ end }}
+      </div>
 
-                            <p>{{ .prva }}</p>
-                            <p>{{ .druga }}</p>
-                            <p>{{ .treca }}</p>
+      <div class="boja.prva"></div>
+    </div>
+  </div>
 
-                        {{ end }}
+  <p>{{ .Content }}</p>
+</section>
 
-                        {{ end }}
-                    </div>
-                    
+  {{ partial "home/kako_naruciti.html" }}
 
-             </div>
-        </div>
-       
-        <p>
-            {{ .Content }}
-        </p>
-    
-    </section>
+  {{ partial "home/o_nama.html" }}
+
+  {{ partial "home/uspjeh.html" }}
 
 {{ end }}
-
-
-

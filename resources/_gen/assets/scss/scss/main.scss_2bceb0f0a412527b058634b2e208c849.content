@@ -13,7 +13,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 .header-section {
   background: #03262c;
-  background: linear-gradient(180deg, #03262c 0%, #0d3036 100%); }
+  background-image: linear-gradient(to bottom, #03262C 0%, #0D3036 100%); }
 
 .header-container {
   max-width: 1200px;
@@ -89,7 +89,7 @@
 footer {
   margin-top: auto;
   background: #03262c;
-  background: linear-gradient(180deg, #03262c 0%, #0d3036 100%); }
+  background-image: linear-gradient(to top, #03262C 0%, #0D3036 100%); }
 
 .footer-container {
   max-width: 1200px;
@@ -154,7 +154,7 @@ footer {
 
 .hero {
   height: 80vh;
-  background-image: url(/img/hero-image.webp);
+  background-image: url(/img/hero-image.webp/);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -247,17 +247,16 @@ footer {
     text-shadow: 0px 0px 10px #333; } }
 
 .container {
-  background-color: #0D3036; }
+  background-image: linear-gradient(to top, #03262C 0%, #0D3036 100%); }
 
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 1200px;
   margin: auto;
   margin-bottom: 50px;
   margin-top: 25px;
-  min-height: 100vh;
   padding: 50px 25px;
   color: white; }
 
@@ -299,7 +298,6 @@ footer {
   cursor: pointer; }
 
 .grid-items:hover {
-  background-color: #F31328;
   background-image: linear-gradient(to right, #59B717 0%, #167906 100%);
   transition: 0.5s; }
 
@@ -311,8 +309,8 @@ img {
   display: flex;
   margin-bottom: 10px;
   min-height: 180px;
-  align-items: flex-end;
-  padding: 0 0 15px 20px; }
+  align-items: center;
+  justify-content: center; }
 
 .brend {
   background-color: white;
@@ -454,17 +452,22 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #03262C;
+  background-image: linear-gradient(to right, #167906 0%, #59B717 100%);
   width: 300px;
   height: 150px;
   padding-top: 30px;
   margin-top: 50px;
+  margin-bottom: 15px;
   color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 15px #1C1C1C; }
 
+.kontakt-kolona:hover {
+  background-image: linear-gradient(to right, #59B717 0%, #167906 100%);
+  transition: 0.5s; }
+
 .kontakt-kolona h3 {
-  color: #59B717; }
+  color: #fff; }
 
 @media (max-width: 1000px) {
   .kontakt-kolone {
@@ -494,7 +497,7 @@ img {
     margin-bottom: 50px; } }
 
 .o-nama-section {
-  background-color: #03262C; }
+  background-image: linear-gradient(to bottom, #03262C 0%, #0D3036 100%); }
 
 .o-nama-container {
   max-width: 1200px;
@@ -624,13 +627,14 @@ img {
   align-items: flex-start; }
 
 .single-slike {
-  width: 500px;
-  height: 500px;
+  max-width: 500px;
+  height: 100%;
   display: grid; }
   .single-slike img {
     height: 100%;
     object-fit: cover;
-    justify-self: center; }
+    justify-self: center;
+    max-width: none; }
 
 .single-naslov {
   text-transform: uppercase;
@@ -643,6 +647,42 @@ img {
   font-size: 1.2rem;
   font-weight: bold;
   font-style: italic; }
+
+@media (max-width: 400px) {
+  .single-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+  .single-slike img {
+    max-width: 250px; } }
+
+.main-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  padding: 50px 25px;
+  color: white;
+  align-items: center; }
+
+.flex-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap; }
+
+.slika-list {
+  display: flex;
+  margin-bottom: 10px;
+  min-height: 180px;
+  align-items: flex-end;
+  padding: 0 0 15px 20px; }
+
+.item-wrapper {
+  width: 275px; }
 
 /* End Common */
 /*Home*/

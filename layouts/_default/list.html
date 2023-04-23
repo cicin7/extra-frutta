@@ -1,49 +1,44 @@
 {{ define "main" }}
 
-      
-        
-
       <div class="container">
 
         <!----- GLAVNA SEKCIJA ----->
-        <section class="main">
+        <section class="main-list">
           
           <div id="lista" class="hero-text-inverse lista-proizvoda-naslov">
-            Lista svih proizvoda
+            {{ .Title }}
           </div>
     
-          <div class="grid">
-            <div class="item-wrapper">
-
-                {{ range .Pages }}
-
-            <a href="{{.RelPermalink}}">
-              <div class="grid-items grid-item-1">
-                 <div class="slika">
-                    <img src="/img/vervita-pro-kuvings-sokovnici.webp" alt="">
-                 </div>
-                 <div class="brend">
-                    <img src="/img/logo-kuvings_95_30.webp" alt="">
-                 </div>
+          <div class="flex-list">
+            {{ range .Pages }}
+              <div class="item-wrapper">
+                <a href="{{.RelPermalink}}">
+                  <div class="grid-items">
+                    <div class="slika-list">
+                        <img src="/img/vervita-pro-kuvings-sokovnici.webp" alt="">
+                    </div>
+                    <div class="brend">
+                        <img src="/img/logo-kuvings_95_30.webp" alt="">
+                    </div>
+                  </div>
+                  <div class="item-naslov">
+                    {{ .Title }}
+                  </div>
+                </a>
               </div>
-              <div class="item-naslov">
-                {{ .Title }}
-              </div>
-             </a>
-             
-             {{ end }}
-             
-            </div>
-    
+            {{ end }}
           </div>
     
         </section>
     
     </div>
-    
-            
- 
 
+  {{ partial "home/kako_naruciti.html" }}
+
+  {{ partial "home/o_nama.html" }}
+
+  {{ partial "home/uspjeh.html" }}
+    
 {{ end }}
 
       

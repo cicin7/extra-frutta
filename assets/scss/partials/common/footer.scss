@@ -1,7 +1,7 @@
 footer {
     margin-top: auto;
     background: rgb(3,38,44);
-    background: linear-gradient(180deg, rgba(3,38,44,1) 0%, rgba(13,48,54,1) 100%);
+    background-image: linear-gradient(to top, $sekcija1_color 0%, $sekcija2_color 100%);
 }
 
 .footer-container {

@@ -1,17 +1,16 @@
 
 .container {
-    background-color: #0D3036;
+    background-image: linear-gradient(to top, $sekcija1_color 0%, $sekcija2_color 100%);
   }
   
   .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     max-width: 1200px;
     margin: auto;
     margin-bottom: 50px;
     margin-top: 25px;
-    min-height: 100vh;
     padding: 50px 25px;
     color: white;
   }
@@ -59,7 +58,6 @@
   }
   
   .grid-items:hover {
-    background-color: #F31328;
     background-image: linear-gradient(to right, #59B717 0%, #167906 100%);
     transition: 0.5s;
   }
@@ -73,8 +71,8 @@
     display: flex;
     margin-bottom: 10px;
     min-height: 180px;
-    align-items: flex-end;
-    padding: 0 0 15px 20px;
+    align-items: center;
+    justify-content: center;
   }
   
   .brend {

@@ -1,0 +1,32 @@
+.main-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 50px 25px;
+    color: white;
+    align-items: center;
+}
+
+
+.flex-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.slika-list {
+    display: flex;
+    margin-bottom: 10px;
+    min-height: 180px;
+    align-items: flex-end;
+    padding: 0 0 15px 20px;
+}
+
+.item-wrapper {
+    width: 275px;
+}
+
