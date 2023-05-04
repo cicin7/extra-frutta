@@ -1,18 +1,22 @@
 @import "variables.scss";
 
 .header-section {
-    background: rgb(3,38,44);
-    background-image: linear-gradient(to bottom, $sekcija1_color 0%, $sekcija2_color 100%);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
 }
 
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 25px;
 }
 
 .header-nav {
@@ -27,8 +31,13 @@
     flex-wrap: wrap;
 }
 
+.header-logo {
+    cursor: pointer;
+}
+
 .header-nav li {
     list-style-type: none;
+        font-weight: bold;
 }
 
 .header-nav ul li a {
@@ -37,7 +46,7 @@
   }
 
 .header-nav a {
-    color: $white_color;
+    color: $dark_color;
 }
 
 .header-nav a:hover {

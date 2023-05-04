@@ -3,16 +3,13 @@
 <section class="single-container">
   <div class="single-header">
     <div class="single-slike">
-      <img
-        src="/img/sokovnik-vervita-pro-kuvings-b6000/kuvings-b6000-crveni.jpg"
-        alt=""
-      />
+      <img src="" alt=""/>
     </div>
 
     <div class="single-osnovne-info">
       <h1 class="single-naslov">{{ .Title }}</h1>
 
-      <p class="price">{{ .Params.price}}</p>
+      <p class="price">{{ .Params.price }}</p>
 
       <div class="boje">
         {{ with .Params.boje }} {{ range . }}

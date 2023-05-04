@@ -1,6 +1,24 @@
 /****** LISTA VOĆA I POVRĆA ******/
 
-.ponuda-container {
+.ponuda-containter {
+
+    background: linear-gradient(#eeeeeeee, #eeeeeeee), url("/img/borovnice-back.jpg/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.opacity-ponuda {
+  width: 100%;
+  height: 100%;
+  padding: 75px 0;
+}
+
+
+.ponuda-container-wrapp {
     max-width: 1200px;
     margin: 75px auto;
     display: flex;
@@ -28,7 +46,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
 
   .popis-wrapp ul li {
@@ -45,8 +63,12 @@
     border-top: 1px solid $svijetlozelena_color;
     color: #333;
     margin-bottom: 50px;
-    padding: 25px 20px 0 0;
+    padding: 50px 20px 0 0;
     font-size: 1.2rem;
+  }
+
+  .btn {
+    margin-bottom: 20px;
   }
 
 @media (max-width: 768px) {
